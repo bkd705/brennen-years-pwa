@@ -1,0 +1,31 @@
+.search {
+  max-width: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #16e15a;
+}
+
+.search a {
+  color: #16e15a;
+}
+
+.search input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 20px;
+  background: 0;
+  border: 2px dashed #16e15a;
+  color: #16e15a;
+}
+
+.search input::placeholder {
+  color: rgba(22, 225, 90, 0.6);
+}
+
+.search h1 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0.75px;
+}
